@@ -11,7 +11,7 @@ _При создании данного сайта были использова
 * [Чеклист №3](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-3.pdf)
 * [Дока](https://doka.guide/)
 ___
-<a><h3 style="text-align: center;">Проектная работа на Github Pages</h3></a>
+<a href="https://spe-x.github.io/russian-travel/"><h3 style="text-align: center;">Проектная работа на Github Pages</h3></a>
 ___
 <h3 style="text-align: center;">Технологии</h3>
 
