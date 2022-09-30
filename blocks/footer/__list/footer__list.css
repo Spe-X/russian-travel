@@ -1,0 +1,20 @@
+.footer__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 18px;
+    transition: opacity 0.4s ease;
+}
+.footer__list:hover {
+    opacity: 0.8;
+  }
+@media screen and (max-width: 767px) {
+    .footer__list {
+        padding-bottom: 32px;
+    }
+    .footer__list:last-of-type {
+        padding-bottom: 48px;
+    }
+}
