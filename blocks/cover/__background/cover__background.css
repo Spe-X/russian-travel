@@ -9,17 +9,14 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    position: relative;
 }
 .cover__background::before {
     content:"";
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: #2A2C2F;
     opacity: 0.3;
     transition: opacity .5s ease;
