@@ -1,6 +1,8 @@
 .intro__list-item {
     font-weight: 700;
     font-size: 12px;
+    font-family: 'Inter';
+    font-style: normal;
     line-height: 18px;
     color: #FFFFFF;
 }
