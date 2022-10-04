@@ -12,8 +12,8 @@
     <header class="header">
         <img class="header__logo" alt="Логотип" src="./images/header-logo.svg">
         <div class="header__lang-link">
-            <a class="header__lang-link-ru" href="">Ru</a>
-            <a class="header__lang-link-en" href="">En</a>
+            <a class="header__lang-ru header__lang-ru_active" href="#" lang="ru">Ru</a>
+            <a class="header__lang-en" href="#" lang="en">En</a>
         </div>
     </header>
 
@@ -35,14 +35,14 @@
             Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-            <li class="intro__list-item">Часовых поясов 11</li>
-            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__list-item">Природных заповедников 105</li>
-            <li class="intro__list-item">Аэропортов 241</li>
+            <li class="intro__list-item">Часовых поясов <span class="intro__list-item">11</span></li>
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item">12</span></li>
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item">16</span></li>
+            <li class="intro__list-item">Природных заповедников <span class="intro__list-item">105</span></li>
+            <li class="intro__list-item">Аэропортов <span class="intro__list-item">241</span></li>
         </ul>
     </section>
-    <div class="photo-grid">
+    <section class="photo-grid">
         <img class="photo-grid__item" alt="Вид из окна вагона" src="./images/photo-grid-train.jpg">
         <img class="photo-grid__item" alt="Горы" src="./images/photo-grid-atharva-tulsi.jpg">
         <img class="photo-grid__item" alt="Туманное поле" src="./images/photo-grid-tuman.jpg">
@@ -55,10 +55,10 @@
         <img class="photo-grid__item" alt="Камчатка" src="./images/photo-grid-kamchatka-2.jpg">
         <img class="photo-grid__item" alt="Побережье Байкала" src="./images/photo-grid-baikal-2.jpg">
         <img class="photo-grid__item" alt="Горы в тумане" src="./images/photo-grid-ergaki.jpg">
-    </div>
+    </section>
 
     <section class="places">
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -79,8 +79,9 @@
                     Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -99,8 +100,9 @@
                     Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -119,8 +121,9 @@
                     над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -138,8 +141,9 @@
                     В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -155,11 +159,11 @@
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                 </p>
             </div>
-        </div>
+        </article>
     </section>
 
     <section class="cover">
-        <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" rel="noopener">
+        <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>

@@ -18,11 +18,10 @@
     right: 0;
     bottom: 0;
     background: #2A2C2F;
-    opacity: 0.4;
-    transition: opacity .5s ease;
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
 }
 
 .cover__background:hover::before {
-    background: #2A2C2F;
     opacity: 0.8;
 }

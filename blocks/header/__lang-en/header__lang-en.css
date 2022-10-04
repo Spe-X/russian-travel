@@ -1,5 +1,5 @@
-.header__lang-link-en {
-    font-family: 'Inter';
+.header__lang-en {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     color:#FFFFFF;
     text-decoration:none;
