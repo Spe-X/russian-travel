@@ -6,10 +6,10 @@
     font-style: normal;
     text-align: center;
     color: #FFFFFF;
-    margin: 0 auto 64px auto;
+    margin: 0 auto 56px auto;
     max-width: 640px;
     box-sizing:border-box;
-    padding: 0 2% 0 2%;
+    padding: 0 2%;
 }
 @media screen and (max-width: 767px) {
     .lead__subtitle {

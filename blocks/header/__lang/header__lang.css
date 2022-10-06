@@ -1,0 +1,14 @@
+.header__lang {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    color:#FFFFFF;
+    margin-right: 18px;
+    transition: opacity .3s ease;
+}
+.header__lang:hover {
+    opacity: .8;
+  }
+.header__lang:last-of-type {
+    margin-right: 0;
+    text-decoration: none;
+}
