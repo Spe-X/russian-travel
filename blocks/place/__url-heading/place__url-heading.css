@@ -6,6 +6,11 @@
     line-height: 170%;
     letter-spacing: 0.2em;
     color: #AAAAAA;
-    margin: 0 0 12px 0;
     text-transform: uppercase;
+    margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+    .place__url-heading {
+        margin-top: 0;
+    }
+  }
